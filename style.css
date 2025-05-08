@@ -1,0 +1,47 @@
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+  }
+#btn{
+    display: flex;
+    font-family: 'Tagesschrift',sans-serif;
+    font-size: 4rem;
+    background-color: antiquewhite;
+}
+#result{
+    font-family: 'Tagesschrift',sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+html{
+    background-color: blueviolet;
+}
+
+.players{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#player1{
+    font-family: 'Tagesschrift',sans-serif;
+    text-align: left;
+    font-size: 3rem;
+}
+
+#player2{
+    font-family: 'Tagesschrift',sans-serif;
+    text-align: left;
+    font-size: 3rem;
+}
+.dice{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#dice1{
+    height: 100px;
+}
+#dice2{
+    height:100px;
+}
